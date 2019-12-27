@@ -1,0 +1,24 @@
+{
+  "name": "jenkins_nodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erober/jenkins_nodeapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erober/jenkins_nodeapp/issues"
+  },
+  "homepage": "https://github.com/erober/jenkins_nodeapp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "supertest": "^4.0.2"
+  }
+}
