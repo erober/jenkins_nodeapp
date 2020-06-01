@@ -1,7 +1,8 @@
 #!/bin/sh
- cd ~/jenkins_nodeapp
+killall node
+cd ~/jenkins_nodeapp
  git pull
  npm install
- pm2 restart all
+ npm start
  exit
 EOF
