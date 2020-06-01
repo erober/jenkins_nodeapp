@@ -3,6 +3,6 @@ killall node
 cd ~/jenkins_nodeapp
  git pull
  npm install
- node index.js
+ node index.js &
  exit
 EOF
